@@ -57,23 +57,23 @@ h1 {
   height: 10%;
   position: relative;
   left: 50px;
-  top: 10px;
+  top: 20px;
 }
 
 .button_one {
   background-color: #6495ED;
-  border: #6495ED solid 2px;
+  border: #6495ED solid 1px;
   color: white;
-  padding: 8px 20px;
+  padding: 6px 15px;
   font-size: 11px;
   border-radius: 5px;
 }
 
 .button_two {
-  background-color: white;
-  border: #D3D3D3 solid 2px;
+  background-color: #FFF;
+  border: #D3D3D3 solid 1px;
   color: #D3D3D3;
-  padding: 8px 20px;
+  padding: 6px 15px;
   font-size: 11px;
   border-radius: 5px;
 }
@@ -84,7 +84,7 @@ h1 {
   width: 100%;
   height: 30%;
   position: absolute;
-  top: 80px;
+  top: 50px;
   margin: 40px;
 }
 
@@ -99,57 +99,21 @@ h2 {
   margin: 5px;
 }
 
-.list_section h2::before {
+.list_section h2:before {
   content: '\25BE';
   margin: 5px;
 }
 
-.little_container_blue {
-  background-color: #6495ED;
-  border-radius: 20px;
-  color: white;
-  padding: 6px;
+.little_container {
+  border-radius: 15px;
+  color: #FFF;
+  padding: 4px 8px 4px;
   margin: 10px;
   font-size: 8px;
 }
 
-.little_container_pink{
-  border-radius: 20px;
-  color: white;
-  padding: 6px;
-  margin: 10px;
-  font-size: 8px;
-  background-color: #FF69B4;
-}
 
-.little_container_green {
-  border-radius: 20px;
-  color: white;
-  padding: 6px;
-  margin: 10px;
-  font-size: 8px;
-  background-color: #66CDAA;
-}
-
-.little_container_orange {
-  border-radius: 20px;
-  color: white;
-  padding: 6px;
-  margin: 10px;
-  font-size: 8px;
-  background-color: #FFA500;
-}
-
-.little_container_violet {
-  border-radius: 20px;
-  color: white;
-  padding: 6px;
-  margin: 10px;
-  font-size: 8px;
-  background-color: #9400D3;
-}
-
-li .simbolo::before {
+li .simbolo:before {
   border: #66CDAA solid 1px;
   border-radius: 50%;
   content:'\2713';
@@ -159,7 +123,7 @@ li .simbolo::before {
   color: #66CDAA;
 }
 
-.negativo .simbolo::before {
+.negativo .simbolo:before {
   border: #B22222 solid 1px;
   border-radius: 50%;
   content:'\2573';
