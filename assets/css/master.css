@@ -6,18 +6,12 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
   background-color: #F0F8FF;
 }
 
 /*banner*/
 
 .banner {
-  width: 100%;
-  height: 10%;
-  position: absolute;
   background-color: white;
 }
 
@@ -31,51 +25,46 @@ h1 {
   vertical-align: middle;
 }
 
-/*main_container*/
-
-.main_container {
-  width: 80%;
-  height: 80%;
-  margin: auto;
-  position: relative;
-  top: 120px;
-  left: 5px;
-  background-color: white;
-}
-
 /*button section*/
 
 .button_container {
-  width: 100%;
+  background-color: #fff;
+  margin: auto;
+  padding: 10px 50px;
+  width: 80%;
   height: 10%;
-  border-bottom: #F0F8FF solid 3px;
-  position: absolute;
+  border-radius: 3px;
+  border-bottom: #F0F8FF solid 4px;
 }
 
-.button_small_container {
-  width: 50%;
-  height: 10%;
-  position: relative;
-  left: 50px;
-  top: 20px;
+.altezza_button_container {
+  margin-top: 30px;
 }
 
-.button_one {
+.button {
   background-color: #6495ED;
   border: #6495ED solid 1px;
-  color: white;
+  color: #FFF;
   padding: 6px 15px;
   font-size: 11px;
   border-radius: 5px;
 }
 
-.button_two {
+.button.two {
   background-color: #FFF;
   border: #D3D3D3 solid 1px;
   color: #D3D3D3;
-  padding: 6px 15px;
-  font-size: 11px;
-  border-radius: 5px;
+
+}
+
+/*main_container*/
+
+.main_container {
+  background-color: #fff;
+  margin: auto;
+  padding: 10px 50px;
+  width: 80%;
+  height: 100%;
 }
 
 /*list section*/
@@ -83,9 +72,8 @@ h1 {
 .list_section {
   width: 100%;
   height: 30%;
-  position: absolute;
   top: 50px;
-  margin: 40px;
+  margin: 20px 0;
 }
 
 li {
@@ -118,7 +106,7 @@ li .simbolo:before {
   border-radius: 50%;
   content:'\2713';
   margin: 5px;
-  padding: 2px;
+  padding: 3px;
   font-size: 10px;
   color: #66CDAA;
 }
@@ -128,7 +116,7 @@ li .simbolo:before {
   border-radius: 50%;
   content:'\2573';
   margin: 5px;
-  padding: 2px;
+  padding: 3px;
   font-size: 7px;
   color: #B22222;
 }
